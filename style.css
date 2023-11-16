@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #d2e603;
+}
+
+nav {
+    
+    position: relative;
+    background-color: #d2e603;
+    
+
+}
+
+
+
+nav .navbar-brand {
+    
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    padding: 5px 10px;
+    
+}
+
+nav a.nav-link {
+    color: #272829 ;
+    font-size: 20px;
+    margin: 5px 15px;
+    background-color: #d2e603;
+    transition: .2s;
+    -webkit-transition: .2s;
+    transform: scale(1.0);
+    padding-left: 10px;
+}
+
+nav a.nav-link.active, 
+nav a.nav-link:hover {
+    background-color: #f1efef;
+    border-radius: 7px;
+    color: #272829 !important;
+    transform: scale(1.1);
+    
+}
+
+#about {
+    
+    text-align: center;
+    position: relative;
+    padding: 120px 0px;
+    background-color: #272829;
+    color: #d2e603;
+}
+
+#about img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #d2e603;
+    object-fit: cover;
+    object-position: top center;
+    -o-object-position:top  ;
+}
+
+#about h1 {
+    position: relative;
+    padding: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about h5 {
+    position: relative;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+/*SERVICES*/
+
+#service {
+    background-color: #272829;
+    position: relative;
+    padding: 50px 0;
+    
+}
+
+#service h2 {
+    
+    position: relative;
+    margin-bottom: 50px;
+    color: #d2e603;
+    font-size: 40px;
+    text-align: center;
+}
+
+#service .service-list {
+    position: relative;
+    padding: 15px 0;
+}
+
+#service .service-list .service-item {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+#service .service-list .service-item img {
+    width: 85%;
+    padding: 0 50px;
+    
+}
+
+#service .service-list .service-item h3 {
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#service .service-list .service-item p {
+    font-size: 20px;
+    color: #d2e603;
+    padding: 10px 50px;
+    text-align: justify;
+    
+}
+
+#service .service-list .service-item a.btn {
+    background-color: #d2e603;
+    border: 2px solid #d2e603;
+    color: #f1efef;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 50%;
+
+}
+
+#service .service-list .service-item a.btn:hover {
+    background-color: #f1efef;
+    color: #d2e603;
+    border: none;
+}
+
+/* PROJECT*/
+
+#project {
+    position: relative;
+    background-color: #272829;
+    padding: 50px 0;
+}
+
+#project h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #d2e603;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#project .project-item {
+    position: relative;
+    margin: 25px 0;
+    overflow: hidden;
+}
+
+#project .project-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+    margin-bottom: 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    transform: scale(1.1);
+    padding-left: 50px;
+   
+    
+    
+}
+
+#project .project-item img:hover {
+    transform: scale(1.2);
+}
+
+#project .project-item h3 {
+    position: relative;
+    color: #d2e603;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+  
+}
+
+#project .project-item h5 {
+    position: relative;
+    color: #d2e603;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+
+/*testimoni*/
+#testimonial {
+    position: relative;
+    padding: 50px 0;
+    background-color: #272829;
+}
+
+#testimonial h2 {
+    position: relative;
+    color: #d2e603;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#testimonial .carousel-item .carousel-content {
+    text-align: center;
+    padding: 0 10px;
+}
+
+#testimonial .carousel-item .carousel-content img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #d2e603;
+    margin-bottom: 15px;
+    border-radius: 5px;
+   
+}
+
+#testimonial .carousel-item .carousel-content h5 {
+    color: #d2e603;
+    font-size: 22px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+
+#testimonial .carousel-item .carousel-content p {
+    font-size: 18px;
+    color: #d2e603;
+    padding-top: 40px;
+}
+
+#contact {
+    position: relative;
+    padding: 50px 0; 
+    background-color: #272829;
+}
+
+#contact form {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    color: #d2e603;
+    font-weight: 600px
+    
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 0;
+    border: 2px solid ;
+    background-color: #aca1a177;
+}
+
+#contact form div .btn {
+    position: relative;
+    display: block;
+    width: 50%;
+    background-color: #5e6368b4;
+    color: #d2e603;
+    border: 2px solid #d2e603;
+    margin: 15px auto;
+}
+
+#contact form .btn:hover {
+    background-color: #f1efef;
+    color: #d2e603;
+}
+
+#footer {
+   padding: 10px;
+   position: relative;
+   background-color: #d2e603;
+    
+}
+
+#footer p {
+    position: relative;
+    color: #272829;
+    font-weight: 600;
+    margin: 0;
+}
+
+#sideNav a {
+  position: absolute;
+  left: -50px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#sideNav a:hover {
+    left: 0;
+}
+
+#facebook {
+   top: 480px;
+   background-color: rgba(0, 0, 255, 0.656);
+}
+
+#facebook i {
+    padding-left: 50px;
+    size: 30px;
+}
+
+#whatsapp {
+    top: 400px;
+    background-color: #d2e603;
+   
+    
+}
+
+#whatsapp i {
+    padding-left: 50px;
+    size: 30px;
+}
